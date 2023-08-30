@@ -44,7 +44,7 @@ function AdminContent() {
           <div className='Upload-description'>We accept <b>.pdf, .ppt, .rtf, .doc, .docx</b> and <a href='*'>more</a></div>
           <div className='Upload-description'>Or add files from:</div>
         <div className={selectedFiles.length === 0 ? null : 'Upload-Display-Box shadow bg-body-tertiary rounded col-8'}>
-        {selectedFiles.map((file)=>(
+        {selectedFiles.map((file, index)=>(
           <DeleteTable
           name={file.name}
           deleteIcon={<div className='Upload-Delete'><MdDelete onClick={() => handleRemoveFile(index)}/></div>}
