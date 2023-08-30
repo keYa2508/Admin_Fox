@@ -14,9 +14,9 @@ function AdminContent() {
         setSelectedFiles([...selectedFiles, ...filesArray]);
       };
 
-      const handleRemoveFile = (fileIndex) => {
+      const handleRemoveFile = (index) => {
         const updatedFiles = [...selectedFiles]; 
-        updatedFiles.splice(fileIndex, 1); 
+        updatedFiles.splice(index, 1); 
         setSelectedFiles(updatedFiles);
       };
 
@@ -47,7 +47,7 @@ function AdminContent() {
         {selectedFiles.map((file)=>(
           <DeleteTable
           name={file.name}
-          deleteIcon={<div className='Upload-Delete'><MdDelete onClick={handleRemoveFile}/></div>}
+          deleteIcon={<div className='Upload-Delete'><MdDelete onClick={() => handleRemoveFile(index)}/></div>}
           />
         ))}
         </div>
