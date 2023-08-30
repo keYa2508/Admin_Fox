@@ -1,0 +1,40 @@
+{
+  "DashboardInfo": [
+    { "info": "TOTAL USERS", "count": "07" },
+    { "info": "CANDIDATES", "count": "07" },
+    { "info": "TRAINEE", "count": "07" }
+  ],
+
+  "NameList": [
+    {
+      "name": "Amresh Sriram",
+      "type": "Trainee",
+      "date": "09-12-2021",
+      "status": "Selected",
+      "assignedBy": "Ramesh K"
+    },
+    {
+      "name": "Amresh Sriram",
+      "type": "Trainee",
+      "date": "09-12-2021",
+      "status": "Selected",
+      "assignedBy": "Ramesh K"
+    },
+    {
+      "name": "Amresh Sriram",
+      "type": "Trainee",
+      "date": "09-12-2021",
+      "status": "Selected",
+      "assignedBy": "Ramesh K"
+    },
+    {
+      "name": "Amresh Sriram",
+      "type": "Trainee",
+      "date": "09-12-2021",
+      "status": "Selected",
+      "assignedBy": "Ramesh K"
+    }
+  ]
+}
+
+

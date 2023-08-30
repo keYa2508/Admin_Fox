@@ -1,0 +1,164 @@
+
+.Dashboard{
+    background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(2px);
+padding: 15px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+height:82.5vh;
+}
+
+.Dashboard-Head{
+    color: #000;
+font-size: 30px;
+font-weight: 700;
+letter-spacing: 2.4px;
+}
+
+.Admin-User-Counts{
+    display: flex;
+    gap: 30px;
+}
+
+.Admin-Count-box{
+    width: 18%;
+    background-color: #FAFAFA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Admin-Count-Type{
+    color: #000;
+font-size: 15px;
+font-weight: 700;
+letter-spacing: 2.4px;
+}
+
+.Admin-Count{
+    color: #000;
+font-size: 50px;
+font-weight: 700;
+}
+
+.Admin-Dashboard-Menus{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    border-bottom: 4px solid black;
+    width: fit-content;
+}
+
+.Admin-Handle-Search{
+    font-size: 45px;
+}
+
+.Admin-Handle-Option-Select{
+    border-radius: 80px;
+border: 1px solid #000;
+opacity: 0.5;
+background: #91DE85;
+padding: 5px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2px;
+cursor: pointer;
+}
+
+.Admin-Handle-Option-Unselect{
+    border-radius: 80px;
+border: 1px solid #000;
+padding: 0px 10px ;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2px;
+cursor: pointer;
+}
+
+.Admin-Handle-Option-Unselect:hover{
+    background-color: #FAFAFA;
+    opacity: 0.5;
+}
+
+.Admin-Handle-Option-Add{
+    border-radius: 80px;
+border: 1px solid #000;
+background: #2295FF;
+padding: 0px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2px;
+color: #FFF;
+cursor: pointer;
+}
+
+.Admin-Handle-Option-Add:hover{
+    opacity: 0.5;
+}
+
+.Admin-Handle-Option-Add span{
+    font-size: 25px;
+    color: black;
+}
+
+.Admin-Dashboard-Table{
+    border-radius: 10px;
+    border: 0px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.Admin-Dasboard-Table-Body{
+    height:27vh;
+    overflow-y: scroll;
+}
+
+
+.Table-Edit{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #2295FF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Table-Edit:hover{
+    display: flex;
+    flex-direction: column;
+    background-color: #2295FF;
+    color: #FFF;
+}
+
+.Table-Delete{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #d6432e;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Table-Delete:hover{
+    display: flex;
+    flex-direction: column;
+    background-color: #d6432e;
+    color: #FFF;
+}

@@ -1,0 +1,76 @@
+.Deactive{
+    color: #808080;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 2.4px;
+cursor: pointer;
+}
+
+.Deactive:hover{
+    color: #000;
+    background-color: #808080;
+    border-radius: 15px;
+}
+
+.Active{
+    color: #000;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 2.4px;
+cursor: pointer;
+}
+
+.Active:hover{
+    background-color: #808080;
+    border-radius: 15px;
+}
+
+.Crt-Ans{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.Crt-Ans span{
+    padding: 3px 10px;
+    background-color: #47ace1;
+    color: #47ace1;
+}
+
+.Wrg-Ans{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.Wrg-Ans span{
+    padding: 3px 10px;
+    background-color: #ec6f55;
+    color: #ec6f55;
+}
+
+.Not-Ans{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.Not-Ans span{
+    padding: 3px 10px;
+    background-color: #fcdc65;
+    color: #fcdc65;
+}

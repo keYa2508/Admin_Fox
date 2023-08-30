@@ -1,0 +1,41 @@
+a {
+    font-size: 10px;
+
+}
+
+.Trainee-Dashboard-Table-Body{
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.Test-Start{
+    background-color: #2295FF;
+    color: #ffff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.Test-Start:hover{
+    background-color: #6fdd9f;
+    color: #ffff;
+}
+
+.Dashboard-Head-Unselect{
+    color: #000;
+font-size: 30px;
+font-weight: 700;
+letter-spacing: 2.4px;
+opacity: 0.5;
+cursor: pointer;
+}
+
+.Dashboard-Head-Select{
+    color: #000;
+font-size: 30px;
+font-weight: 700;
+letter-spacing: 2.4px;
+cursor: pointer;
+}
