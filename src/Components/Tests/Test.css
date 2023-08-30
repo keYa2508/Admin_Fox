@@ -1,0 +1,61 @@
+  
+  .qn-box {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .choice{
+    width:30%;
+    font-size: 17px;
+  }
+  
+  .qn{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .radio-button{
+    accent-color: black;
+    cursor: pointer;
+  }
+
+  .timer {
+    border-radius: 10px;
+    background: rgba(228, 50, 50, 0.92);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    padding: 10px 15px;
+  }
+  
+  .static-time {
+    color: #000;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2.4px;
+  }
+  
+  .Test-Topic {
+    color: #000;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 2.6px;
+  }
+  
+  .submit {
+    border-radius: 10px;
+    background: rgba(24, 155, 3, 0.5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 2.6px;
+    padding: 10px 15px;
+  }
+
+  .submit:hover{
+    color: #fff;
+    opacity: 0.5;
+  }

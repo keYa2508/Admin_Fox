@@ -1,0 +1,58 @@
+.Upload-button{
+    background-color: red;
+    font-size: 35px;
+    color:white;
+    border-radius: 40px;
+    padding: 15px 15px 15px 15px;
+    border-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.Upload-heading{
+    font-size: 35px;
+}
+
+.Upload-description{
+    font-size: 20px;
+}
+
+.Upload-box{
+    border:1px solid black;
+    width:100%;
+    height:100vh;
+    border:4px dashed grey;
+}
+
+.Upload-options{
+    width:20%;
+    height:16vh;
+    border-radius: 5px;
+    cursor: pointer;
+    border:2px solid black;
+}
+
+.Upload-selected{
+    border-color: blue;
+}
+
+.hidden-file-input {
+    display: none;
+  }
+
+  .Upload-Delete{
+    font-size: 30px;
+    color: #d6432e;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .Upload-Display-Box{
+    height: 40vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
